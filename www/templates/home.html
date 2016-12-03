@@ -1,0 +1,27 @@
+<ion-view view-title="{{'app_title' | translate }}" style="background: #0d455f">
+  <ion-content style="overflow-y: auto;">
+
+  <h1>
+  	<img style="width: 100%;height: 100%;padding:5px; " src="img/title.png">
+  </h1>
+
+	   <div class="item item-body"  style="background: #0d455f">
+	   	<button class="button button-full button-energized" ng-click="turnOn()">
+            {{"light_on" | translate }}
+        </button>
+        <button class="button button-full button-assertive" ng-click="turnOff()">
+            {{"light_off" | translate }}
+        </button>
+        <!--<button class="button button-full button-energized" ng-click="switchAccelerometer()">
+            {{"enable_accelo" | translate }}
+        </button>-->
+
+       <!-- <p>
+          x : {{x}} | y : {{y}} | z : {{z}} | timestamp : {{timestamp}}
+        </p>-->
+
+	   </div>
+
+	</div>
+</ion-content>
+</ion-view>
